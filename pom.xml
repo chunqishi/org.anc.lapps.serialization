@@ -18,6 +18,27 @@
     </properties>
 
 
+    <dependencies>
+        <dependency>
+            <groupId>org.anc</groupId>
+            <artifactId>common</artifactId>
+            <version>3.2.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.github.jsonld-java</groupId>
+            <artifactId>jsonld-java</artifactId>
+            <version>0.3</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.codehaus.groovy.modules</groupId>
+            <artifactId>groovyws</artifactId>
+            <version>0.5.2</version>
+        </dependency>
+    </dependencies>
+
     <build>
         <plugins>
             <plugin>
@@ -42,17 +63,5 @@
             </plugin>
         </plugins>
     </build>
-    <dependencies>
-        <dependency>
-            <groupId>org.anc</groupId>
-            <artifactId>common</artifactId>
-            <version>3.2.0</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.github.jsonld-java</groupId>
-            <artifactId>jsonld-java</artifactId>
-            <version>0.3</version>
-        </dependency>
-    </dependencies>
+
 </project>
